@@ -125,3 +125,57 @@ section::before {
   border-left: 20px solid lightskyblue;
   border-top: 20px solid lightskyblue;
 }
+
+@media print {
+  .tm-sidebar,
+  .tm-team-img,
+  #about,
+  .blocks .tm-content-box,
+  .carousel-indicators,
+  .carousel-item,
+  .img-fluid,
+  #contact,
+  section::before,
+  .text::after {
+    display: none;
+  }
+
+  body,
+  .container,
+  .padding-medium,
+  .tm-main-content,
+  .tm-content-box {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  h2,
+  .blocks h2 {
+    text-align: center;
+    color: lightskyblue;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .heading li {
+    list-style-type: none;
+  }
+
+  .heading li:nth-child(2n + 1) {
+    text-align: right;
+  }
+
+  .heading ol {
+    margin: 0 25%;
+  }
+  .tm-section-description {
+    text-align: center;
+  }
+
+  .tm-team-description-container,
+  .carousel-content {
+    max-width: 590px;
+    margin: 0 auto;
+  }
+}
