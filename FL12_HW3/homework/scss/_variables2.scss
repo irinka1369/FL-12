@@ -7,3 +7,7 @@ $section-banner-bg: linear-gradient(to right, #dda206, #97334d);
 $footer-bg: #383d4f;
 $word-color-bg: #ff4d30;
 $section-text-color: #fff;
+$z-index: (
+  "plus": 1,
+  "minus": -1
+);

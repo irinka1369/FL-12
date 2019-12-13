@@ -17,7 +17,7 @@
   width: $word-width;
   height: $word-height;
   position: absolute;
-  z-index: -1;
+  z-index: map-get($z-index, "minus");
 }
 
 @mixin link-header-styling {
@@ -52,7 +52,7 @@ body {
   .header-wrap {
     margin-left: 115px;
     position: relative;
-    z-index: 1;
+    z-index: map-get($z-index, "plus");
 
     .header_heading {
       font-size: 55px;
@@ -107,7 +107,7 @@ body {
 .section {
   color: $body-font-color;
   position: relative;
-  z-index: 1;
+  z-index: map-get($z-index, "plus");
 
   .section_text {
     color: $section-text-color;
@@ -129,7 +129,6 @@ body {
   .section_card_wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     .section_card {
       display: flex;
@@ -172,7 +171,7 @@ body {
     background: $section-banner-bg;
     width: 64%;
     position: relative;
-    z-index: 1;
+    z-index: map-get($z-index, "plus");
     display: flex;
     justify-content: space-around;
     align-items: center;
