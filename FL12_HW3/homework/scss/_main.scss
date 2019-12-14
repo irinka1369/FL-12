@@ -129,6 +129,7 @@ body {
   .section_card_wrap {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .section_card {
       display: flex;
