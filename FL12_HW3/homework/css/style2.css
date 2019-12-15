@@ -38,7 +38,7 @@ body {
     .header .header-wrap .header_text {
       font-size: 13px;
       white-space: pre-line;
-      font-family: "Hind", sans-serif; }
+      font-family: "Fresca", sans-serif; }
     .header .header-wrap .landing-logo, .header .header-wrap .footer .footer-wrap .footer_logo, .footer .footer-wrap .header .header-wrap .footer_logo {
       padding-top: 15px; }
       .header .header-wrap .landing-logo img, .header .header-wrap .footer .footer-wrap .footer_logo img, .footer .footer-wrap .header .header-wrap .footer_logo img {
@@ -113,7 +113,8 @@ body {
           color: #afb3c0;
           text-align: justify;
           font-size: 12px;
-          word-spacing: 1px; }
+          word-spacing: 1px;
+          font-family: "Fresca", sans-serif; }
         .section .section_card_wrap .section_card .section_card_right_container .section_link {
           color: #afb3c0;
           font-size: 12px;
@@ -152,7 +153,8 @@ body {
       color: #bec0bb;
       font-size: 14px;
       margin-top: 0;
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      font-family: "Fresca", sans-serif; }
     .section .section_banner .section_banner_button {
       width: 110px;
       height: 35px;
@@ -188,6 +190,7 @@ body {
     max-width: 19%;
     margin: 0;
     font-size: 11px;
-    word-spacing: 1px; }
+    word-spacing: 1px;
+    font-family: "Fresca", sans-serif; }
   .footer .footer-cr {
     font-size: 14px; }

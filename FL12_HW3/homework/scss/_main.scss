@@ -72,7 +72,8 @@ body {
     .header_text {
       font-size: 13px;
       white-space: pre-line;
-      font-family: "Hind", sans-serif;
+      font-family: $this-body-font;
+      ;
     }
 
     .landing-logo {
@@ -157,6 +158,7 @@ body {
           text-align: justify;
           font-size: 12px;
           word-spacing: 1px;
+          font-family: $this-body-font;
         }
         .section_link {
           @include link-section-styling;
@@ -201,6 +203,7 @@ body {
       font-size: 14px;
       margin-top: 0;
       margin-bottom: 25px;
+      font-family: $this-body-font;
     }
     .section_banner_button {
       @include button-styling;
@@ -244,6 +247,7 @@ body {
     margin: 0;
     font-size: 11px;
     word-spacing: 1px;
+    font-family: $this-body-font;
   }
   .footer-cr {
     font-size: 14px;
