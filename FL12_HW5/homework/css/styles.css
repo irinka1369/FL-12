@@ -162,7 +162,7 @@ main {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.7rem;
-  }
+}
 .date-number {
   font-size: 3.5rem;
   font-weight: 200;
@@ -208,13 +208,14 @@ aside {
 }
 
 .news-content {
-  padding: 30px 80px 30px 40px;
+  padding: 30px 60px 30px 40px;
   font-weight: 200;
 }
 .news-content h3 {
   font-size: 2rem;
   font-weight: 200;
   margin: 0;
+  margin-bottom: 15px;
 }
 
 .news-content p {
@@ -317,7 +318,6 @@ footer {
   }
   .news-content h3 {
     font-size: 25px;
-    margin-bottom: 8px;
     font-weight: 300;
   }
   .news-content p {
@@ -327,20 +327,25 @@ footer {
   footer {
     display: block;
     text-align: center;
-    
-}
-@media (max-width: 480px) {
-  main{
-    flex-direction: column;
   }
-  .all-posts {
-    width: 100%;
-  }
-  aside {
-    width: 100%;
-  }
-  footer {
-  font-size: 12px;
-  }
+  @media (max-width: 480px) {
+    main {
+      flex-direction: column;
+    }
+    .banner-text p {
+      padding-right: 30px;
+    }
+    .all-posts {
+      width: 100%;
+    }
+    .banner-text h2 {
+      font-size: 2.5rem;
+    }
+    aside {
+      width: 100%;
+    }
+    footer {
+      font-size: 12px;
+    }
   }
 }
