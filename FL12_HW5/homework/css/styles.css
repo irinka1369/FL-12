@@ -162,8 +162,7 @@ main {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.7rem;
-  word-spacing: 2;
-}
+  }
 .date-number {
   font-size: 3.5rem;
   font-weight: 200;
@@ -233,6 +232,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .body-container {
+    margin: 0 10px;
+  }
   .navigation {
     display: flex;
     flex-direction: column;
@@ -341,3 +343,4 @@ footer {
   font-size: 12px;
   }
   }
+}
