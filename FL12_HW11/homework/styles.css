@@ -1,0 +1,27 @@
+li {
+  list-style: none;
+  cursor: pointer;
+}
+p {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+p:hover {
+  background-color: #efefef;
+}
+
+.none {
+  display: none;
+}
+
+.span {
+  font-style: italic;
+}
+
+i {
+  color: #edbc0b;
+}
+.file {
+  color: #808080;
+}
