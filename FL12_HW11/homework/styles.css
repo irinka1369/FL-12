@@ -10,15 +10,12 @@ p {
 p:hover {
   background-color: #efefef;
 }
-
 .none {
   display: none;
 }
-
 .span {
   font-style: italic;
 }
-
 i {
   color: #edbc0b;
 }

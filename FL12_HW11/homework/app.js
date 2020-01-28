@@ -36,8 +36,6 @@ const structure = [
 ];
 
 const rootNode = document.getElementById('root');
-
-// Todo: your code goes here
 let newEl = document.createElement('ul');
 let closeFolder = "<i class='material-icons close'>folder</i>";
 let openFolder = "<i class='material-icons open'>folder_open</i>";
